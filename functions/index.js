@@ -14,11 +14,40 @@ var email_user = req.body.email_user;
 var email_psw = req.body.email_psw;
 if(user == "undefined"){
 res.send("")
-  
 }
   else{
-res.send("")
+    res.send("
+ <nav>
+    <form class = "" id = "" style = "display:inline-block" action = "" method = "POST">
+         <input name = "" value = '++' />
+      <button type = "submit" style = "width:inherit;height:inherit">Find Landlords</button>
+    </form>
+    <form class = "" id = "" style = "display:inline-block" action = "" method = "POST">
+         <input name = "" value = '++' />
+      <button type = "submit" style = "width:inherit;height:inherit">Rentals</button>
+    </form>
+    <form class = "" id = "" style = "display:inline-block" action = "" method = "POST">
+         <input name = "" value = '++' />
+      <button type = "submit" style = "width:inherit;height:inherit">Signup/Login</button>
+    </form>
+    <form class = "" id = ""style = "display:inline-block" action = "" method = "POST">
+         <input name = "" value = '++' />
+      <button type = "submit" style = "width:inherit;height:inherit">Home</button>
+    </form>
     
+
+
+
+
+
+
+
+
+
+      
+</nav>        
+         
+         ")
   }
 })
 
