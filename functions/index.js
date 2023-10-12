@@ -18,35 +18,28 @@ res.send("")
   else{
     res.send("
  <nav>
-    <form class = "" id = "" style = "display:inline-block" action = "" method = "POST">
+    <form class = "" id = "b_1" style = "display:inline-block" action = "" method = "POST">
          <input name = "" value = '++' />
       <button type = "submit" style = "width:inherit;height:inherit">Find Landlords</button>
     </form>
-    <form class = "" id = "" style = "display:inline-block" action = "" method = "POST">
+    <form class = "" id = "b_2" style = "display:inline-block" action = "" method = "POST">
          <input name = "" value = '++' />
       <button type = "submit" style = "width:inherit;height:inherit">Rentals</button>
     </form>
-    <form class = "" id = "" style = "display:inline-block" action = "" method = "POST">
+    <form class = "" id = "b_3" style = "display:inline-block" action = "" method = "POST">
          <input name = "" value = '++' />
       <button type = "submit" style = "width:inherit;height:inherit">Signup/Login</button>
     </form>
-    <form class = "" id = ""style = "display:inline-block" action = "" method = "POST">
+    <form class = "" id = "b_4" style = "display:inline-block" action = "" method = "POST">
          <input name = "" value = '++' />
       <button type = "submit" style = "width:inherit;height:inherit">Home</button>
-    </form>
-    
-
-
-
-
-
-
-
-
-
-      
+    </form>  
 </nav>        
-         
+<body>
+      
+      
+      
+</body>         
          ")
   }
 })
