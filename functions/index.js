@@ -16,7 +16,7 @@ if(user == "undefined"){
 res.send("")
 }
   else{
-    res.send("
+    res.send('
  <nav>
     <form class = "" id = "b_1" style = "display:inline-block" action = "" method = "POST">
          <input name = "" value = '++' />
@@ -40,7 +40,7 @@ res.send("")
       
       
 </body>         
-         ")
+         ')
   }
 })
 
